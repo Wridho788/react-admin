@@ -83,7 +83,7 @@ const Sidebar = () => {
               </Box>
             )}
           </MenuItem>
-
+          {/* User collapsed */}
           {!isCollapsed && (
             <Box mb='25px'>
               <Box display='flex' justifyContent='center' alignItems='center'>
@@ -101,10 +101,10 @@ const Sidebar = () => {
                   color={colors.grey[100]}
                   fontWeight='bold'
                   sx={{ m: '10px 0 0 0' }}>
-                  Ed Roh
+                  Ridho Wahyu
                 </Typography>
                 <Typography variant='h5' color={colors.greenAccent[500]}>
-                  VP Fancy Admin
+                  Admin
                 </Typography>
               </Box>
             </Box>
